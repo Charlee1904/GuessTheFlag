@@ -17,15 +17,10 @@ struct ContentView: View {
         //    }
         
         VStack {
-            Button("Button 1") { }
-                .buttonStyle(.bordered)
-            Button("Button 2", role: .destructive) {}
-                .buttonStyle(.bordered)
-            Button("Button 3") {}
-                .buttonStyle(.borderedProminent)
-                .tint(.mint)
-            Button("Button 4", role: .destructive){}
-                .buttonStyle(.borderedProminent)
+            Button("Edit", systemImage:"pencil") {
+                print("button was tapped")
+                
+            } 
             
         }
         
